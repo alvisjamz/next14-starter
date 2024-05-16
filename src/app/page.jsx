@@ -1,5 +1,11 @@
-const Home = () => {
-  return <div>Hello World!</div>;
-};
+import React from 'react'
 
-export default Home;
+const Home = () => {
+  return (
+      <h1 className="text-4xl font-bold underline">
+        Hello world!
+    </h1>
+  )
+}
+
+export default Home
